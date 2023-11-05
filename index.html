@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Consola</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Simulador de Consola</h1>
+        <div class="consola" id="console">
+            <div class="salida" id="output">
+                <div><span>DiegoT4l Console [Versión 10.0.2]</span></div>
+                <div>(c) 2023 DiegoT4l Corporation. Todos los derechos reservados.</div>
+                <p></p>
+            </div>
+            
+            <div class="entrada">
+                <span>$></span>
+                <label for="input"></label>
+                <input type="text" id="input" autofocus maxlength="30">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p>&copy; <span id="currentYear"></span><small>&nbsp;&nbsp;-&nbsp;&nbsp;All rights reserved | Developed by: <a class="author" href="https://www.diegot4l.com"><span>DiegoT4l</span></a></small></p>
+        </div>
+    </footer>
+    
+    <script type="module" src="./js/script.mjs"></script>
+</body>
+</html>
