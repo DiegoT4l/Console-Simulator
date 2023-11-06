@@ -54,9 +54,9 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 0px;
     width: 100%;
-    background-image: linear-gradient(to bottom, #000 20%, rgba(0, 0, 0, 0.512) 100%);
+    background-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.512) 100%);
 }
 .consola {
     width: 300px;

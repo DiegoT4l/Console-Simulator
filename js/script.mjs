@@ -30,7 +30,6 @@ function executeCommand(command) {
     }
 }
 
-
 function agregarTexto(state, text) {
     const status = (
         state === 'error' ? 'error' : 
