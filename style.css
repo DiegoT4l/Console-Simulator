@@ -30,6 +30,17 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline 1px solid #fff;
+}
+::marker {
+    color: #fff;
+}
 ::-webkit-scrollbar {width: 5px;}
 ::-webkit-scrollbar-track {background: #000;}
 ::-webkit-scrollbar-thumb {background: #fff;}
@@ -105,6 +116,30 @@ h1 {
     color: #fff;
     outline: none;
     cursor: text;
+}
+.entrada input::placeholder {
+    color: #ffffffd8;
+    letter-spacing: 0.13rem;
+    text-indent: 0.2rem;
+}
+.entrada input:focus {
+    outline: none;
+}
+.salida div .error {
+    color: #ff0000;
+}
+.salida div .error__sign {
+    color: #ff0000;
+    font-weight: 700;
+}
+.salida div .command {
+    color: rgb(232, 249, 105);
+}
+.salida div .success {
+    color: rgb(123, 123, 249);
+}
+.salida div .warning {
+    color: rgb(249, 105, 105);
 }
 
 /* FOOTER */

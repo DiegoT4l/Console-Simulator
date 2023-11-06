@@ -1,4 +1,4 @@
 function mkdir() {
-    return 'mkdir';
+    console.log('creando carpeta');
 }
 export default mkdir;

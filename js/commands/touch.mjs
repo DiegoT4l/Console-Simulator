@@ -1,4 +1,4 @@
 function touch() {
-    return 'touch';
+    console.log('creando archivo');
 }
 export default touch;
